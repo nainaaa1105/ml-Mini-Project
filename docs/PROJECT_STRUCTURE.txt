@@ -1,0 +1,41 @@
+MOODTUNE RECOMMENDER - PROJECT STRUCTURE
+
+Hierarchical structure:
+
+Mood_Music_Recommender_Project/
+├── app.py
+├── README.md
+├── requirements.txt
+├── data/
+│   └── cleaned_mood_music_dataset.csv
+├── docs/
+│   └── PROJECT_STRUCTURE.txt
+├── models/
+│   ├── model_metrics.json
+│   ├── mood_model.pkl
+│   └── song_recommender.pkl
+├── notebooks/
+│   └── Mood_Based_Music_Model_Training_Recommender.ipynb
+└── src/
+    ├── create_notebook.py
+    └── train_model.py
+
+One-line file notes:
+
+app.py - Streamlit frontend that takes user mood input and displays recommended songs with Spotify links.
+README.md - Main project guide with setup, run instructions, workflow, and folder explanation.
+requirements.txt - Python package list required to run training, notebook, and Streamlit app.
+data/cleaned_mood_music_dataset.csv - Preprocessed music dataset used for model training and recommendations.
+docs/PROJECT_STRUCTURE.txt - This file; explains the hierarchy and purpose of each file.
+models/model_metrics.json - Saved evaluation results such as row count, accuracy, feature list, and mood counts.
+models/mood_model.pkl - Trained machine learning mood classifier saved as a pickle/joblib file.
+models/song_recommender.pkl - Pickle/joblib recommendation bundle containing song data, mood rules, and metadata.
+notebooks/Mood_Based_Music_Model_Training_Recommender.ipynb - Jupyter notebook showing the full training and recommendation workflow.
+src/create_notebook.py - Helper script that regenerates the project notebook in the notebooks folder.
+src/train_model.py - Training script that reads the cleaned dataset and creates the pickle files in models.
+
+Recommended run order:
+
+1. Install requirements if needed.
+2. Run src/train_model.py to regenerate model pickle files.
+3. Run app.py with Streamlit to launch the recommendation frontend.

@@ -1,0 +1,129 @@
+{
+  "rows": 89583,
+  "features": [
+    "popularity_norm",
+    "duration_norm",
+    "danceability",
+    "energy",
+    "loudness_norm",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo_norm",
+    "explicit_numeric",
+    "key_norm",
+    "time_signature_norm",
+    "mode_numeric"
+  ],
+  "accuracy": 0.7800971144722889,
+  "classification_report": {
+    "Calm": {
+      "precision": 0.6297297297297297,
+      "recall": 0.9748953974895398,
+      "f1-score": 0.7651888341543513,
+      "support": 478.0
+    },
+    "Chill": {
+      "precision": 0.7687595712098009,
+      "recall": 0.9776046738072055,
+      "f1-score": 0.8606943849121304,
+      "support": 1027.0
+    },
+    "Energetic": {
+      "precision": 0.42197986577181207,
+      "recall": 0.9314814814814815,
+      "f1-score": 0.5808314087759815,
+      "support": 540.0
+    },
+    "Euphoric": {
+      "precision": 0.6753768844221105,
+      "recall": 0.9378925331472435,
+      "f1-score": 0.7852760736196319,
+      "support": 1433.0
+    },
+    "Focus": {
+      "precision": 0.8530741410488246,
+      "recall": 0.9792423456149455,
+      "f1-score": 0.9118144479342837,
+      "support": 1927.0
+    },
+    "Happy": {
+      "precision": 0.7502876869965478,
+      "recall": 0.9637841832963784,
+      "f1-score": 0.8437398900032352,
+      "support": 1353.0
+    },
+    "Intense": {
+      "precision": 0.8816685584562997,
+      "recall": 0.9478340451494814,
+      "f1-score": 0.9135548368127021,
+      "support": 3278.0
+    },
+    "Live": {
+      "precision": 0.8260355029585799,
+      "recall": 0.9762237762237762,
+      "f1-score": 0.8948717948717949,
+      "support": 715.0
+    },
+    "Melancholic": {
+      "precision": 0.3181818181818182,
+      "recall": 0.4375,
+      "f1-score": 0.3684210526315789,
+      "support": 16.0
+    },
+    "Neutral": {
+      "precision": 0.8963290278721958,
+      "recall": 0.4324368645457527,
+      "f1-score": 0.5834070796460177,
+      "support": 6098.0
+    },
+    "Party": {
+      "precision": 0.34782608695652173,
+      "recall": 0.6153846153846154,
+      "f1-score": 0.4444444444444444,
+      "support": 26.0
+    },
+    "Sad": {
+      "precision": 0.7439500390320063,
+      "recall": 0.9824742268041237,
+      "f1-score": 0.8467347845402043,
+      "support": 970.0
+    },
+    "Spoken": {
+      "precision": 0.6455696202531646,
+      "recall": 0.9107142857142857,
+      "f1-score": 0.7555555555555555,
+      "support": 56.0
+    },
+    "accuracy": 0.7800971144722889,
+    "macro avg": {
+      "precision": 0.6737514256068778,
+      "recall": 0.8513437252814485,
+      "f1-score": 0.7349641990693778,
+      "support": 17917.0
+    },
+    "weighted avg": {
+      "precision": 0.8184228028571269,
+      "recall": 0.7800971144722889,
+      "f1-score": 0.7624304340687502,
+      "support": 17917.0
+    }
+  },
+  "mood_counts": {
+    "Neutral": 30491,
+    "Intense": 16387,
+    "Focus": 9634,
+    "Euphoric": 7164,
+    "Happy": 6766,
+    "Chill": 5135,
+    "Sad": 4852,
+    "Live": 3576,
+    "Energetic": 2701,
+    "Calm": 2388,
+    "Spoken": 281,
+    "Party": 128,
+    "Melancholic": 80
+  }
+}
